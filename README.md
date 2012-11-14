@@ -18,7 +18,7 @@
 Usage
 =====
 
-* code-block::http://peeper.herokuapp.com/get_feed/user_id
+* http://peeper.herokuapp.com/get_feed/user_id
     - Get the feed for user specified by user_id , e.g. get all the peeps users users_id follows did recently.
     - optional request parameter: max_returned , to specify how many backward entries to return. defaults to 20.
 
@@ -26,10 +26,10 @@ Usage
     - creates a new userid.
     - returns the newly created userid in JSON.
 
-* http://peeper.herokuapp.com/post_message/user_id?message_text=”your message”
+* 'http://peeper.herokuapp.com/post_message/user_id?message_text=”your message”'
     * posts a new message by the user user_id, text need be passed through message_text argument and escaping for spaces and such need be taken care of before POSTing.
 
-*  http://peeper.herokuapp.com/(un)follow/username1?followed_user=username2
+*  'http://peeper.herokuapp.com/(un)follow/username1?followed_user=username2'
     - enables or disables following of user by username1 of user by username2
 
 * http://peeper.herokuapp.com/get_global_feed 
