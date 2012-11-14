@@ -30,7 +30,7 @@ Usage
 * http://peeper.herokuapp.com/post_message/user_id?message_text=”your message”
     * posts a new message by the user user_id, text need be passed through message_text argument and escaping for spaces and such need be taken care of before POSTing.
 
-*  http://peeper.herokuapp.com/(un)follow/username1?followed_user=username2
+*  code:http://peeper.herokuapp.com/(un)follow/username1?followed_user=username2
     - enables or disables following of user by username1 of user by username2
 
 * http://peeper.herokuapp.com/get_global_feed 
